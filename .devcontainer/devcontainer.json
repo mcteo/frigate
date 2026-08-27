@@ -3,7 +3,7 @@
   "dockerComposeFile": "../docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder": "/workspace/frigate",
-  "initializeCommand": ".devcontainer/initialize.sh",
+  "initializeCommand": [".devcontainer/initialize"],
   "postCreateCommand": ".devcontainer/post_create.sh",
   "overrideCommand": false,
   "remoteUser": "vscode",
